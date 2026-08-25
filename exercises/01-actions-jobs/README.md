@@ -16,6 +16,7 @@
 ## Contexto
 
 La diferencia entre un pipeline que funciona y uno que escala está en cómo estructuras los jobs: qué depende de qué, qué información pasa entre ellos y qué artefactos produces. Este módulo cubre esas tres cosas con el pipeline real de este repositorio, que corre `dotnet format`, `dotnet build` y `dotnet test` en jobs separados con dependencias explícitas.
+hol mundo
 
 ---
 
